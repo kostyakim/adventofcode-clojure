@@ -1,7 +1,7 @@
 (ns adventofcode-clojure.core
   (:gen-class))
 
-(def inputString (slurp "/home/kuma/first"))
+(def inputString (slurp "/dai1-input"))
 (defn numCount 
   [inp pos sum]
   (letfn [(parse-int [s](Integer. s))
